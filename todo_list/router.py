@@ -1,4 +1,4 @@
-from todo.viewsets import StatusViewset, TodoViewset
+from status.viewsets import StatusViewset, TodoViewset
 from rest_framework import routers
 
 router = routers.DefaultRouter()
